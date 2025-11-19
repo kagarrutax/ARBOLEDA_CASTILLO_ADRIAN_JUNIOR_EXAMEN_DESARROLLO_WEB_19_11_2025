@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor */
+.contenedor {
+    background: white;
+    padding: 25px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #999;
+    text-align: center;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+/* Botón */
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004c99;
+}
+
+/* estilos del home */
+/* Botón para home.html */
+.btn-home {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-home:hover {
+    background: #1e7e34;
+}
